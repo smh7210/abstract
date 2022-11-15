@@ -45,7 +45,10 @@
   p, h1, h2, h3, h4, h5, h6 {
     overflow-wrap: break-word;
   }
-  
+
+.container {
+    display: flex;
+}
 
 .header-wrapper {
     background-color: #000;
@@ -99,4 +102,21 @@
     padding: 3px 15px;
 }
 
+.header-wrapper .callout .container {
+    background: #dadbf1;
+    flex-direction: column;
+    padding: 100px;
+    gap: 10px;
+}
+
+.header-wrapper .callout h2 {
+    font-size: 50px
+}
+
+.header-wrapper .callout input {
+    width: 500px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    padding: 10px 5px;
+}
 
