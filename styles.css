@@ -102,18 +102,20 @@
     padding: 3px 15px;
 }
 
-.header-wrapper .callout .container {
+.callout .container {
     background: #dadbf1;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 100px;
     gap: 10px;
 }
 
-.header-wrapper .callout h2 {
+.callout h2 {
     font-size: 50px
 }
 
-.header-wrapper .callout input {
+.callout input {
     width: 500px;
     border: 1px solid #000;
     border-radius: 3px;
