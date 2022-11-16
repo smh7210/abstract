@@ -46,7 +46,12 @@
     overflow-wrap: break-word;
   }
 
-.container {
+  svg {
+    height: 20px;
+    width: 20px;
+  }
+
+.container, .flex {
     display: flex;
 }
 
@@ -61,7 +66,6 @@
 }
 
 .header-wrapper .container {
-    display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 10px 40px;
@@ -69,7 +73,6 @@
 
 .left, .right {
     width: 100%;
-    display: flex;
     align-items: center;
 }
 
@@ -120,5 +123,13 @@
     border: 1px solid #000;
     border-radius: 3px;
     padding: 10px 5px;
+}
+
+.options .container {
+  padding: 100px;
+}
+
+.options .container {
+  flex-direction: column;
 }
 
