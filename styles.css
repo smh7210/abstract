@@ -46,10 +46,6 @@
     overflow-wrap: break-word;
   }
 
-  svg {
-    height: 65px;
-    width: 65px;
-  }
 
 .container, .flex {
     display: flex;
@@ -125,27 +121,29 @@
     padding: 10px 5px;
 }
 
+.container .col .icon svg {
+  height: 64px;
+  width: 64px;
+}
+
 .options .container {
-  padding: 50px;
-  flex-direction: column;
+  display: flex;
   justify-content: center;
   align-items: center;
-  gap: 50px;
-  width: 100%;
+  padding: 50px;
+  gap: 30px;
 }
 
-.box {
-  width: 300px;
-  line-height: 1.5rem;
-  justify-content: center;
-  gap: 5px;
+.options .container .col{
+  height: 510px;
 }
 
-.options .container .box .description {
-  padding-left: 10px
+.options .container .col .box {
+  display: flex;
+  width: 350px;
+  padding-bottom: 50px;
 }
 
-.row-1, .row-2, .row-3 {
-  gap: 80px;
-  justify-content: space-between;
+.options .container .col .box .icon {
+  padding-right: 10px;
 }

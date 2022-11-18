@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="//theme.zdassets.com/theme_assets/2197739/1a71d05024d0bf628f47cb2a498903409ad571f0.png" type="image/x-icon">
-    <title>Abstract</title>
+    <title>Document</title>
+    <style>
+        .container .col .icon svg {
+            height: 64px;
+            width: 64px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            gap: 10px;
+        }
+
+        .container .col .box {
+            display: flex;
+            width: 350px;
+            padding-bottom: 50px;
+        }
+
+        .container .col .box .icon {
+            padding-right: 10px;
+        }
+    </style>
 </head>
 <body>
-    <header class="header-wrapper">
-        <div class="container">
-            <div class="left flex">
-                <h1 class="logo"><a href="#"><img src="./images/Abstract_Wordmark-White.svg" alt="logo"></a></h1>
-                <a class="help-center" href="#">Help Center</a>
-            </div>
-            <div class="right flex">
-                <button class="btn-dark">Submit a request</button>
-                <button class="btn-blue">Sign in</button>
-            </div>
-        </div>
-    </header>
-
     <main>
-        <section class="callout">
-            <div class="container">
-                <h2>How can we help?</h2>
-                <input type="search" name="search" id="search" placeholder="search">
-            </div>
-        </section>
-        <section class="options">
         <div class="container">
             <div class="col">
                 <div class="box">
@@ -130,7 +132,7 @@
                 </div>
             </div>
         </div>
-        </section>
+    
     </main>
 </body>
 </html>
