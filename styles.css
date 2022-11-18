@@ -134,12 +134,17 @@
   gap: 30px;
 }
 
+.options .description h2 {
+  font-size: 16px;
+}
+
 .options .container .col{
-  height: 510px;
+  height: 100%;
 }
 
 .options .container .col .box {
   display: flex;
+  justify-content: center;
   width: 350px;
   padding-bottom: 50px;
 }
@@ -147,3 +152,4 @@
 .options .container .col .box .icon {
   padding-right: 10px;
 }
+
