@@ -129,7 +129,7 @@
 .options .container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding: 50px;
   gap: 30px;
 }
@@ -145,8 +145,13 @@
 .options .container .col .box {
   display: flex;
   justify-content: center;
-  width: 350px;
+  width: 340px;
   padding-bottom: 50px;
+}
+
+.options .container .col .box .description {
+  width: 350px;
+  height: 144px
 }
 
 .options .container .col .box .icon {
