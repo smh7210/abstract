@@ -31,7 +31,7 @@
   */
   img, picture, video, canvas, svg {
     display: block;
-    max-width: 100%;
+    /* max-width: 100%; */
   }
   /*
     7. Remove built-in form typography styles
@@ -122,7 +122,7 @@
 }
 
 .container .col .icon svg {
-  height: 64px;
+  /* height: 64px; */
   width: 64px;
 }
 
@@ -130,7 +130,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding: 50px;
+  margin: 100px 50px 50px;
   gap: 30px;
 }
 
@@ -140,13 +140,14 @@
 
 .options .container .col{
   height: 100%;
+  align-items: space-between;
 }
 
 .options .container .col .box {
   display: flex;
-  justify-content: center;
   width: 340px;
-  padding-bottom: 50px;
+  margin-bottom: 40px;
+  padding-bottom: 0;
 }
 
 .options .container .col .box .description {
@@ -155,6 +156,25 @@
 }
 
 .options .container .col .box .icon {
-  padding-right: 10px;
+  margin-right: 10px;
 }
 
+footer .container {
+  display: flex;
+  background-color: #000;
+  color: #fff;
+  padding: 0 30px 60px;
+  /* justify-content: space-between; */
+}
+
+footer .container a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+
+footer .container .footer-column {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
